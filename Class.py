@@ -13,3 +13,6 @@ class Rectangle:
 
     def circumference(self):
         return 2 * (self.length + self.width)
+
+    def __str__(self):
+        return "Rectangle(length={}, width={})".format(self.length, self.width)
